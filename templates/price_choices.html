@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+<title> Stock price viewer </title>
+</head>
+
+<body>
+<h1> Please enter a stock ticker and check what you want to plot </h1>
+
+<form action = "index_lulu" method = "post">
+Stock ticker: <input type="text" name="ticker" value="AAPL"/> <br />
+<br />
+ <input type="checkbox" name="prices" value = "close" /> Closing price <br />
+ <input type="checkbox" name="prices" value = "adj_close" /> Adjusted closing price <br />
+ <input type="checkbox" name="prices" value = "open" /> Opening price <br />
+ <input type="checkbox" name="prices" value = "adj_open" /> Adjusted opening price <br />
+<br />
+<input type="submit" value="Submit"/>
+</form>
+</body>
+
+</html>
